@@ -1,0 +1,33 @@
+
+
+#banner .banner {
+    height: 85vh;
+   background-image: url(../img/bg-img.jpg);
+   
+    
+    
+    
+}
+
+
+.banner h1 {
+    color: red;
+}
+
+
+.subtitulo {
+    text-align: center;
+    color: white;
+    padding-bottom: 25px ;
+}
+
+.card {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#itens h1 {
+    text-align: center;
+    padding: 15px;
+}
+

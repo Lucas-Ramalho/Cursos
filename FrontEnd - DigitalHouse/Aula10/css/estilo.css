@@ -1,0 +1,41 @@
+
+/* Importanto Fontes externa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Modelo de Caixa */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(https://loremflickr.com/1280/400/dog);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 175px;
+}
+
+h1 {
+    height: 50px;
+    color: rgb(25, 0, 255);
+}
+
+h2 {
+    height: 50px;
+   color: rgb(211, 18, 18)
+}
+
+.botao {
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: blueviolet;
+}

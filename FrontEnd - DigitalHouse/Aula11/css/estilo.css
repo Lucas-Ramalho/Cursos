@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.caixa {
+    width: 250px;
+    height: 250px;
+    border: 3px blue dotted;
+}
+
+.caixainterna {
+    width: 100px;
+    height: 100px;
+    border: 3px blueviolet solid;
+    background-color: yellow;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#caixa2 {
+    position: absolute;
+    right: 0;
+    top: 0; 
+}
+
+#caixa3 {
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 125px)
+}

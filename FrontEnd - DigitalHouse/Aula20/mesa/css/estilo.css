@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer {
+    width: 95%;
+    height: 100vh;
+    display: grid;
+
+    margin: auto;
+
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 20% 1fr;
+
+    gap: 10px;
+
+    grid-template-areas: 
+    "header header"
+    "aside main";
+}
+
+.header {
+    grid-area: header;
+    background-color: white;
+    
+    text-align: center;
+}
+
+.img-logo {
+    
+    background-size: cover;
+    height: 200px;
+    
+}
+
+.aside {
+    grid-area: aside;
+    background-color: rgb(228, 220, 220);
+    border-radius: 10px;
+    
+}
+
+
+ul {
+    padding-top: 25px;
+    
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: bold;
+   
+}
+
+li:hover {
+    background-color: rgb(133, 129, 129) ;
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(252, 244, 244);
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.main-filho-1 {
+    
+   text-align: center;
+    padding: 10px;
+}
+
+
+
+.main-filho-2 {
+
+  
+    text-align: justify;
+    padding: 10px;
+}
+
+.main-filho-2 p {
+    font-size: 20px ;
+}
+
+.terceirona {
+    display: flex;
+    padding-left: 60px;
+}
+.terceira {
+    
+    margin-top: 30px;
+    
+    width: 30%;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.terceira img {
+    height: 100%;
+    width: 100%;
+}

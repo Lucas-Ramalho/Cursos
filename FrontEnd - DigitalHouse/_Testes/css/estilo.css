@@ -1,0 +1,21 @@
+
+
+/* Importanto Fontes externa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Modelo de Caixa */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+body {
+    background-image: url("https://picsum.photos/id/237/800/500");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

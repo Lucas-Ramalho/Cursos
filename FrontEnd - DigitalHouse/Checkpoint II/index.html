@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Piracicaba - Contato</h1>
+
+    </header>
+
+    <main>
+
+        <div class="form-div">
+
+            <form action="/cadastrar" name="cadastro-usuario">
+                <fieldset form="cadastro-usuario">
+                    <legend></legend>
+
+                    <div class="form-div-int">
+                        <label for="nome">Nome*:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Insira seu nome" maxlength="100" required>
+                    </div>
+
+                    <div class="form-div-int">
+                        <label for="email">E-mail*: </label>
+                        <input type="email" name="email" id="email" placeholder="email@email.com" required> 
+                    </div>
+
+                    <div class="form-div-int">
+                        <label for="phone">Telefone*:</label>
+                        <input type="tel" name="phone" id="phone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"required placeholder="(xx) xxxxx-xxxx">
+                       
+                    </div>
+
+                    <div class="form-div-int">
+                        <label for="data-nascimento">Data de Nascimento*:</label>
+                        <input type="date" name="data" id="data">
+                    </div>
+
+                    <div class="radio-input">
+
+                        <label for="idade">Tem mais de 18 anos? : </label>
+                        <input type="radio" name="maior-idade" value="maior-idade" id="maior-idade">
+                        <label for="idade">SIM</label>
+                        <input type="radio" name="maior-idade" value="maior-idade" id="maior-idade">
+                        <label for="idade">NÃO</label>
+                        
+
+                    </div>
+                        <img class="divisoria" src="https://steemitimages.com/DQmYNMxHRBNHBZzMCWby6nXT78CoKJaydpbkZqaY6wRVo7e/barrinha3.png" alt="">
+                    <div>
+                        
+                    </div>
+
+                    <div class="form-div-int">
+                        
+                        <label for="lugares">Ponto de Interesse </label>
+                         <select name="curso" id="curso">
+                            <option value="1">--Selecione--</option>
+                            <option value="1">Rua do Porto</option>
+                            <option value="2">ESALQ-USP</option>
+                            <option value="3">Engenho Central</option>
+                            <option value="4">Museu da Agua</option>
+                        </select>
+                    </div>
+
+                    <div class="checkbox-input">
+                        <label for="interesses">Perfil de Usuário (Opcional): </label><br>
+                        
+                        <div class="opcoes-checkbox">
+                            <input type="checkbox" name="interesses" value="turista">
+                            <label for="interesses">Turista</label>
+                        
+                            <input type="checkbox" name="interesses" value="residente">
+                            <label for="interesses">Residente</label>
+                        
+                            <input type="checkbox" name="interesses" value="estudante">
+                            <label for="interesses">Estudante</label>
+                        </div>
+        
+                    </div>
+
+                    <div class="msg">
+                        <label for="msg">Mensagem: </label><br>
+                        <textarea name="msg" id="msg" cols="50" rows="5"></textarea>
+                    </div>
+                    <small>[*] Preenchimento obrigatório</small>
+
+                    <div class="buttons-div">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar</button>
+            
+                    </div>
+
+
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <a href="https://www.instagram.com/prefeituradepiracicaba/?hl=pt"><img clas= "logo" src="imagens/instagram.png" alt="logo instagram"></a>
+        <a href="https://www.youtube.com/channel/UC3Acrecu1jD9vHMxBufufyQ"><img clas= "logo" src="imagens/youtube.png" alt="logo youtube"></a>
+    </footer>
+    
+</body>
+</html>

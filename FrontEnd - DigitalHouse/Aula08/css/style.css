@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: steelblue;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: yellow;
+}
+
+.media-picture {
+    height: 400px;
+    width: 100%;
+    background-image: url("https://picsum.photos/id/237/800/500");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.review-score {
+    color: white;
+    padding: 12px;
+    background-color: #e6bd09;
+}
+
+

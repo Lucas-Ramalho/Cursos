@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* 1 - Elementos Gerais  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.divisoria {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* 2 - Elementos do Header*/
+
+header {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 60px;
+    color: white;
+    opacity: 90%;
+}
+
+header h1 {
+    background-color: rgb(233, 195, 195);
+    
+}
+
+
+/* 3 - Elementos main - Formulario*/
+
+.form-div{
+    height: 980px;
+    width: 40%;
+    margin: auto;
+    background-color: rgb(233, 195, 195);
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    opacity: 87%;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+}
+
+.form-div-int {
+    padding: 15px;
+    
+}
+
+.form-div-int input {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    transition-property: height;
+    transition-duration: 0.5s;
+    
+}
+
+.form-div-int input[type="text"], .form-div-int input[type="email"]  {
+    width: 70%;
+}
+
+.form-div-int select {
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.radio-input {
+    padding: 15px;
+}
+
+.checkbox-input {
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.opcoes-checkbox {
+    padding: 15px;
+    
+}
+
+.checkbox-input input {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    
+}
+
+
+.msg {
+    padding: 15px;
+   
+}
+
+.msg textarea {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 80%;
+    border-radius: 4px;
+
+}
+
+
+
+/* Animações Main */
+
+.form-div:hover {
+    opacity: 95%;
+}
+
+
+.form-div-int input:hover {
+    height: 50px;
+
+}
+
+
+.form-div-int input:invalid {
+    border: 2px solid red;
+}
+
+
+
+/* 4 - Main - botoes */
+
+
+.buttons-div {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.buttons-div button{
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(231, 113, 100);
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+
+/* Animaçoes botao*/
+
+.buttons-div button:hover {
+    background-color: rgb(226, 69, 51);
+}
+
+/* 
+Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+
+}
+
+footer a {
+    margin: 10px;
+}

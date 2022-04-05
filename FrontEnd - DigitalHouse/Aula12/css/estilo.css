@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: coral;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 15px;
+    z-index: 1;
+}
+
+
+body {
+    background-image: url(imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    background-color: rgb(241, 216, 212);
+}
+
+.produto {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    
+}
+
+.produto-descricao {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+
+.produto-descricao p {
+    padding: 2px;
+}
+
+.img-produto {
+   width: 340px;
+   height: 300px;
+}
+
+.linha-1 {
+    top: 100px
+}
+
+.linha-2 {
+    top: 420px
+}
+
+.linha-3 {
+    top: 740px
+}
+
+.col-1 {
+    left: 200px;
+}
+
+.col-2 {
+    left: 740px;
+}
+
+.col-3{
+    left: 1270px;
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -1200px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer img {
+    position: absolute;
+    left: calc(50% - 24px);
+}

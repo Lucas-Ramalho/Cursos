@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-aula.css">
+    <title>Aula</title>
+</head>
+<body>
+    <header><h1>Formulário II</h1></header>
+
+    <form action="/cadastrar" name="cadastro-usuario">
+        <fieldset form="cadastro-usuario"> <!-- um grupo de campos-->
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+
+            </div>
+
+            <div>
+                <label for="data">Data Nascimento:</label>
+                <input type="date" name="data" id="data">
+            </div>
+
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email" placeholder="Insira o e-mail"> 
+            </div>
+
+            <div>
+                <label for="pwd">Senha: </label>
+                <input type="password" name="pwd" id="pwd" placeholder="Insira a senha">
+
+            </div>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="Insira a idade">
+            </div>
+
+            <div>
+                <label for="pgt">Forma de Pagamento:</label><br>
+
+                <label for="debito">Débito</label>
+                <input type="radio" name="meio-pgto" value="debito" id="debito">
+                <label for="credito">Crédito</label>
+                <input type="radio" name="meio-pgto" value="credito" id="credito">
+                <label for="pix">PIX</label>
+                <input type="radio" name="meio-pgto" value="pix" id="pix">
+
+            </div>
+
+        </fieldset>
+
+        <fieldset form="cadastro-usuario">
+            <legend>Inscrição</legend>
+
+            <div>
+                <label for="curso">Curso: </label>
+                <select name="curso" id="curso">
+                    <option value="1">CTD</option>
+                    <option value="2">Design</option>
+                    <option value="3">Marketing</option>
+                    <option value="4">IA</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="minibio">Minibio de apresentação: </label>
+                <textarea name="minibio" id="minibio" cols="50" rows="5" placeholder="Inisira a minibio"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="hobbies">Hobbies: </label><br>
+
+                <input type="checkbox" name="hobbies" value="Música">
+                <label for="hobbies">Música</label>
+                
+                <input type="checkbox" name="hobbies" value="Viajar">
+                <label for="hobbies">Viajar</label>
+                
+                <input type="checkbox" name="hobbies" value="Estudar">
+                <label for="hobbies">Estudar</label>
+                
+
+            </div>
+
+        </fieldset>
+
+        <div class="buttons-div">
+            <label for="termos">Aceito os Termos.</label>
+            <input type="checkbox" name="termos">
+        </div>
+
+        <div class="buttons-div">
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+        </div>
+
+    </form>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url(https://image.freepik.com/free-vector/gradient-dynamic-purple-lines-background_23-2148995757.jpg);
+    background-size:cover;
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.form-empresa {
+    width: 1500px;
+    background-color: rgb(217, 201, 236);
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+.head-form {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.head-btn {
+    border: 1px black solid;
+    padding-top: 8px;
+    width: 15%;
+    height: 40px;
+    display: inline-block;
+    background-color: rgb(151, 79, 218);
+    border-radius: 8px;
+}
+
+.head-btn:hover,
+.head-btn:active {
+    background-color: rgb(76, 2, 141);
+    color: white;
+}
+
+
+.cadastro-usuario {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.email-div {
+    
+    width: 500px;
+    padding: 5px;
+    padding-right: 150px;
+}
+
+
+.senha-div {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    padding: 5px;
+    
+    width: 500px;
+    margin-right: 0px;
+    padding-right: 250px;
+
+}
+
+#senha {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#email {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.fdados-cadastrais {
+   
+    width: 45%;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.fdados-cadastrais div {
+    padding: 8px;
+   
+}
+
+.fdados-cadastrais input:focus {
+   border-color: white;
+   background-color: rgb(190, 124, 252);
+}
+
+.fildsets-meio {
+    position: relative;
+}
+
+.endereco-entrega {
+    
+    width: 45%;
+    padding: 20px;
+    margin-left: 800px;
+    margin-top: -390px;
+}
+
+.endereco-entrega input:focus {
+    border-color: white;
+    background-color: rgb(190, 124, 252);
+}
+
+
+.endereco-entrega div {
+    padding: 8px;
+}
+
+.foot-div {
+    margin-top: 30px;
+  
+    text-align: center;
+}
+
+
+.buttons-aceite{
+    padding: 15px; 
+}
+
+.buttons-aceite{
+    padding: 15px; 
+}
+
+.btn-cdtro {
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-cdtro:hover{
+    background-color: rgb(166, 101, 226);
+}
+
+
+input[type="checkbox"]:checked {
+    width: 20px;
+    height: 20px;
+  }
+
+

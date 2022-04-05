@@ -1,0 +1,26 @@
+.bola {
+    width: 150px;
+    padding: 20px;
+    animation: fantasma 3s;
+    transition-timing-function: ease;
+}
+
+@keyframes fantasma{
+    0% {opacity: 0%}
+    100%{transform: translateX(500px); opacity: 100%;}
+    
+}
+
+
+.cristo {
+    width: 400px;
+    height: 250px;
+    padding: 50px;
+    
+    
+}
+
+.cristo:hover {
+    transform: rotate(180deg);
+    transition-timing-function: ease;
+}
