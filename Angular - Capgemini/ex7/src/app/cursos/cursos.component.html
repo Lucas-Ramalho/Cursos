@@ -1,0 +1,33 @@
+<!-- Formulario -->
+
+<form action="">
+    <input type="text" placeholder="Curso" [(ngModel)]="curso.nomeCurso" name="nomeCurso">
+    <input type="number" name="" id="" placeholder="Valor" [(ngModel)]="curso.valorCurso" name="valorCurso">
+    <input type="text" placeholder="Area" [(ngModel)]="curso.areaCurso" name="areaCurso">
+    <input type="button" value="Cadastrar" (click)="cadastrar()" *ngIf="id<0">
+    <input type="button" value="Confirmar Edição" *ngIf="id>=0" (click)="atualizar()">
+</form>
+
+
+<!-- Tabela -->
+<table>
+    <thead>
+        <th>Curso</th>
+        <th>Valor</th>
+        <th>Area</th>
+        <th>Acoes</th>
+        
+    </thead>
+
+    <tr *ngFor="let curso of vetorCursos; let id=index">
+        <td>{{curso.nomeCurso}}</td>
+        <td>{{curso.valorCurso}}</td>
+        <td>{{curso.areaCurso}}</td>
+        <td>
+            <button class="excluir" (click)="excluir(id)">Excluir</button>
+            <button class="alterar" (click)="editar(id)">Alterar</button>
+        </td>
+
+    </tr>
+
+</table>
