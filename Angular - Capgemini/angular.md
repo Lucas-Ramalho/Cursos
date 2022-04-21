@@ -4,22 +4,22 @@
 
 - Realizar a instalação atraves dos comandos
 
-    * npm install -g @angular/cli
+     npm install -g @angular/cli
 
 - Realizar a criação do workspace do projeto, em uma pasta com caminho especifica destinada para projetos angular C:\xampp\htdocs\angular\)y
 
-    * ng new meu_projeto
+    ng new meu_projeto
 
 - Após criado o workspace, abrir o mesmo no vscode
 
 - Criar uma aplicação de servidor. Caso tenha problema de acessar por meio do Powershell utilizar os comandos:
 
-    * Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 - E depos de configurado rodar o ng serve novamente
 
-    * ng serve --open ou
-    * ng s
+    ng serve --open ou
+    ng s
 
 - Sera aberto o servidor em localhost:4200
 
@@ -42,15 +42,15 @@ Para criar um componente tem algumas formas, a mais convencional é a :
     * ng g component meu-componente ou
     * ng g c meu-componente
 
-assim ele vai no node baixa as configurações e cria uma nova pasta em app, com o nome do componente criado, com os arquivos HTML, CSS, TYPESCRIPT e SPEC (conversao)
-Aqui dentro montamos nossa pagina
+Assim ele vai no node baixa as configurações e cria uma nova pasta em app, com o nome do componente criado, com os arquivos HTML, CSS, TYPESCRIPT e SPEC (conversao)
+Aqui dentro montamos nossa pagina.
 
-no arquivo TYPESCIPT em @component, temos o seletor da minha pagina, no exemplo: 'app-meu-componente'
+No arquivo TYPESCIPT em @component, temos o seletor da minha pagina, no exemplo: 'app-meu-componente'.
 
 Em index.html tenho a tag <app-root></app-root>, essa tag puxa as cinfigurações da pagina app.component.html, que nao pode ser excluida pois é a nossa pasta root, porem podemos importar as informações de outra pagina para essa pagina principal, chamando pelo seu @component - <app-meu-componente></app-meu-componente>
 
 
-digitamos ng serve para testar e ver se funciona
+Digitamos ng serve para testar e ver se funciona
 
 # app.module
 
